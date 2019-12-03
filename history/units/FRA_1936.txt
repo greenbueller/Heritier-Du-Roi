@@ -1,0 +1,488 @@
+##### Division Templates #####
+division_template = {
+	name = "Division d'Infanterie"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 
+	}
+}
+
+division_template = {
+	name = "Division d'Garnison"	# Idea is that France is trying to modernize, and has shit div templates now
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Division d'Mixte" # Mixed Division - Infantry and Calvary 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      
+	}
+}
+
+division_template = {
+	name = "Brigade de Char Mixte" # Mixed Brigade with 1 Rgt LT& 1 Rgt Calv
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }		
+		
+	}
+}
+
+division_template = {
+	name = "Vieille Garde"		
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 } 
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 } 
+		infantry = { x = 3 y = 2 }
+		infantry = { x = 3 y = 3 }
+		infantry = { x = 4 y = 0 }
+		infantry = { x = 4 y = 1 } 
+		infantry = { x = 4 y = 2 }
+		infantry = { x = 4 y = 3 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 	
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Brigade Coloniale" # Colonial Brigade has 2x2 Rgt with low equipment at start.
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Division d'Infanterie Alpine"	# Elites
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+
+###########NORTHERN FRANCE#############
+units = {
+	division= {	
+		name = "1eme Division d'Infanterie 'Ney'"
+		location = 3552 
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "2eme Division d'Infanterie 'Murat'"
+		location = 9434
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "3eme Division d'Infanterie 'Lannes'"
+		location = 512
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+
+	division= {	
+		name = "4eme Division d'Infanterie 'Suchet'"
+		location = 9503
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "5eme Division d'Infanterie 'Oudinot'"
+		location = 678
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "1eme Division d'Garnison"
+		location = 11470
+		division_template = "Division d'Garnison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "2eme Division d'Garnison"
+		location = 3558
+		division_template = "Division d'Garnison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "3eme Division d'Garnison"
+		location = 6583
+		division_template = "Division d'Garnison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "4eme Division d'Garnison"
+		location = 9472
+		division_template = "Division d'Garnison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "5eme Division d'Garnison"
+		location = 11483
+		division_template = "Division d'Garnison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "6eme Division d'Garnison"
+		location = 11548
+		division_template = "Division d'Garnison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= { 
+		name = "1eme Division d'Mixte"
+		location = 11606
+		division_template = "Division d'Mixte"
+		start_experience_factor = 0.3
+		start_experience_factor = 0.3
+	}
+
+	division= { 
+		name = "2eme Division d'Mixte"
+		location = 3666
+		division_template = "Division d'Mixte"
+		start_experience_factor = 0.3
+		start_experience_factor = 0.3
+	}
+
+	division= { 
+		name = "3eme Division d'Mixte"
+		location = 3764
+		division_template = "Division d'Mixte"
+		start_experience_factor = 0.3
+		start_experience_factor = 0.3
+	}
+
+#############SOUTHERN FRANCE##################
+
+	division= {	
+		name = "6eme Division d'Infanterie 'Augereau'"
+		location = 9737
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "7eme Division d'Infanterie 'Marmont'"
+		location = 9737
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "8eme Division d'Infanterie 'Berthier'"
+		location = 11697
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+
+	division= {	
+		name = "9eme Division d'Infanterie 'Serurier'"
+		location = 6915
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "7eme Division d'Garnison"
+		location = 3915
+		division_template = "Division d'Garnison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "8eme Division d'Garnison"
+		location = 743
+		division_template = "Division d'Garnison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "9eme Division d'Garnison"
+		location = 9909
+		division_template = "Division d'Garnison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "1eme Reigmente d'Chasseur Alpine"
+		location = 9603
+		division_template = "Division d'Chasseur Alpine"
+		start_expereince_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "2eme Reigmente d'Chasseur Alpine"
+		location = 3838
+		division_template = "Division d'Chasseur Alpine"
+		start_expereince_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+############PARISIAN UNITS###############
+
+	division= {	
+		name = "1er Regimente de la Garde Imperiale 'Napoleon I'"
+		location = 11506
+		division_template = "Vieille Garde"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.3
+	}
+
+	division= { 
+		name = "1e Brigade de Char Mixte 'Davout'"
+		location = 11506
+		division_template = "Brigade de Char Mixte"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= { 
+		name = "2e Brigade de Char Mixte 'Poniatowski'"
+		location = 11506
+		division_template = "Brigade de Char Mixte"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+####WESTERN UNITS####
+
+	division= {	
+		name = "10eme Division d'Garnison"
+		location = 12049
+		division_template = "Division d'Garnison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "11eme Division d'Garnison"
+		location = 1965
+		division_template = "Division d'Garnison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "10eme Division d'Infanterie 'Jourdan'"
+		location = 9377
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+#############GARRISON###########
+
+	division= {
+		name = "1eme Brigade Coloniale"
+		location = 12789
+		division_template = "Brigade Coloniale"
+		start_expereince_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "2eme Brigade Coloniale"
+		location = 7376
+		division_template = "Brigade Coloniale"
+		start_expereince_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+	
+	division= {
+		name = "3eme Brigade Coloniale"
+		location = 4401
+		division_template = "Brigade Coloniale"
+		start_expereince_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "4eme Brigade Coloniale"
+		location = 7329
+		division_template = "Brigade Coloniale"
+		start_expereince_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "5eme Brigade Coloniale"
+		location = 997
+		division_template = "Brigade Coloniale"
+		start_expereince_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "6eme Brigade Coloniale"
+		location = 9948
+		division_template = "Brigade Coloniale"
+		start_expereince_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "7eme Brigade Coloniale"
+		location = 1497
+		division_template = "Brigade Coloniale"
+		start_expereince_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "8eme Brigade Coloniale"
+		location = 2196 
+		division_template = "Brigade Coloniale"
+		start_expereince_factor = 0.3
+		start_equipment_factor = 0.3
+
+
+	}
+
+	division= {
+		name = "9eme Brigade Coloniale"
+		location = 989 
+		division_template = "Brigade Coloniale"
+		start_expereince_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "10eme Brigade Coloniale"
+		location = 11969
+		division_template = "Brigade Coloniale"
+		start_expereince_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "11eme Brigade Coloniale"
+		location = 4948
+		division_template = "Brigade Coloniale"
+		start_expereince_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+
+air_wings = {
+	16 = {
+		fighter_equipment_0 = {
+			owner = "FRA"
+			amount = 194
+		}
+
+		tac_bomber_equipment_1 = {
+			amount = 51
+			owner = "FRA"
+		}
+	}
+
+	21 = {
+		fighter_equipment_0 = {
+			owner = "FRA"
+			amount = 72
+		}
+
+		nav_bomber_equipment_1 = {
+			owner = "FRA"
+			amount = 24
+		}
+	}
+
+	458 = {
+		fighter_equipment_0 = {
+			owner = "FRA"
+			amount = 125
+		}
+	}
+
+	671 = {
+		fighter_equipment_0 = {
+			owner = "FRA"
+			amount = 72
+		}
+
+		tac_bomber_equipment_0 = {
+			owner = "FRA"
+			amount = 24
+		}
+	}
+}

@@ -1,0 +1,62 @@
+ideas = {
+	country = {
+		JAP_militarism_spirit = {
+			allowed = {
+				original_tag = JAP
+			}
+
+			allowed_civil_war = {
+				has_government = militarism
+				OR = {
+					has_government = nationalism
+				}
+			}
+
+			picture = generic_acquire_tanks
+
+			modifier = {
+				stability_factor = 0.10
+				war_support_factor = 0.05
+				conscription_factor = 0.05
+			}
+		}
+
+		divide_faction = {
+			allowed = {
+				original_tag = JAP
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = JAP_Divide
+
+			modifier = {
+				stability_factor = -0.05
+				planning_speed = -0.45
+				training_time_factor = 0.15
+			}
+		}
+
+		rising_sun = {
+			allowed = {
+				original_tag = JAP
+			}
+
+			allowed_ciivl_war = {
+				has_government = nationalism
+				OR = {
+					has_government = militarism
+				}
+			}
+
+			picture = JAP_Rise_Sun
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				subjects_autonomy_gain = -1
+			}
+		} 
+	}
+}

@@ -1,0 +1,197 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "FRA"
+		default = yes
+		
+		"FRA"={
+			history = "FRENCH_GATHERING_STORM_DESC"
+			ideology = nationalism
+			ideas = {
+				overextension
+			}
+
+			focuses = {
+				#
+			}
+		}
+		"PRU"={
+			history = "PRU_GATHERING_STORM_DESC"
+			ideology = social_democracy
+			ideas = {
+				weakened_state
+			}
+
+			focuses = {
+				#
+			}
+		}
+		"ENG"={
+			history = "UK_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				spirit_of_revolution
+			}
+
+			focuses = {
+				#
+			}
+		}
+		"JAP"={
+			history = "JAPAN_GATHERING_STORM_DESC"
+			ideology = militarism
+			ideas = {
+				JAP_militarism_spirit
+			}
+
+			focuses = {
+				#
+			}
+		}
+		"RUS"={
+			history = "RUS_GATHERING_STORM_DESC"
+			ideology = conservatism
+			ideas = {
+				orthodox_church
+				weak_tsar
+			}
+
+			focuses = {
+				#
+			}		
+		}
+		"SAR"={
+			history = "SAR_GATHERING_STORM_DESC"
+			ideology = nationalism
+			ideas = {
+				italian_spirit
+			}
+
+			focuses = {
+				#
+			}		
+		}
+		"SPA"={
+			history = "SPA_GATHERING_STORM_DESC"
+			ideology = militarism
+			ideas = {
+				SPA_fracture
+			}
+
+			focuses = {
+				#
+			}
+		}
+
+		"USA"={
+			history = "US_GATHERING_STORM_DESC"
+			ideology = conservatism
+			ideas = {
+				home_brave
+			}
+
+			focuses = {
+				#
+			}
+		}
+
+
+		# minors from DLC ####
+		#"---"={
+		#	minor = yes
+		#	history = "OTHER_GATHERING_STORM_DESC"
+		#}
+
+		"POR"={
+			history = "POR_GATHERING_STORM_DESC"
+			ideology = militarism
+			minor = yes
+			ideas = {
+				suspend_cons
+			}
+			focuses = {
+				#
+			}
+		}
+
+		"HUN"={
+			history = "HUN_GATHERING_STORM_DESC"
+			ideology = militarism
+			minor = yes
+			ideas = {
+				coup_tension
+			}
+			focuses = {
+				#
+			}
+		}
+
+		"AUS"={
+			history = "AUS_GATHERING_STORM_DESC"
+			ideology = nationalism
+			minor = yes
+			ideas = {
+				osterreich
+			}
+			focuses = {
+				#
+			}			
+		}
+
+		"OTT"={
+			history = "OTT_GATHERING_STORM_DESC"
+			ideology = conservatism
+			minor = yes
+			ideas = {
+				dying_empire
+			}
+			focuses = {
+				#
+			}				
+		}
+
+		"MAN"={
+			history = "MAN_GATHERING_STORM_DESC"
+			ideology = nationalism
+			minor = yes
+			ideas = {
+				heaven_kingdom
+			}
+			focuses = {
+				#
+			}					
+		}
+
+		"CHI"={
+			history = "CHINA_GATHERING_STORM_DESC"
+			ideology = conservatism
+			minor = yes
+			ideas = {
+				republican_spirit
+			}
+			focuses = {
+				#
+			}			
+		}
+
+		"IND"={
+			history = "IND_GATHERING_STORM_DESC"
+			ideology = progressive
+			minor = yes
+			ideas = {
+				RAJ_long_live_the_king
+			}
+			focuses = {
+				#
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

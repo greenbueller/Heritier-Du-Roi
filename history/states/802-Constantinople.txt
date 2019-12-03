@@ -1,0 +1,25 @@
+state = {
+	id = 802
+	name = "STATE_802"
+	provinces = {
+		11829 9833
+	}
+	state_category = large_city
+	manpower = 936338‬
+
+	history = {
+		owner = CON
+		add_core_of = CON
+
+		buildings = {
+			infrastructure = 7
+			9833 = {
+				naval_base = 8
+			}
+		}
+
+		victory_points = {
+			9833 20
+		}
+	}
+}

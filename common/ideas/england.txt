@@ -1,0 +1,64 @@
+ideas = {
+	country = {
+
+		spirit_of_revolution = {
+			allowed = {
+				original_tag = ENG
+				has_government = communism
+				OR = {
+					has_government = socialism
+				}
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+				OR = {
+					has_government = socialism
+				}
+			}
+
+			picture = ENG_Revolution
+
+			modifier = {
+				stability_factor = 0.05
+				drift_defence_factor = 0.15
+				political_power_gain = 0.05
+				surrender_limit = 0.02
+			}
+
+			rule = {
+				can_create_factions = yes
+			}
+		}
+
+		remember_george = {
+			allowed = {
+				original_tag = ENG
+				#CAN = {
+				#	NOT = {
+				#		has_country_leader = {
+    			#			name = "Edward VII"
+    			#			ruling_only = yes
+				#		}
+				#		OR = {
+				#			has_idea = CAN_King_Edward
+				#		}	
+				#	}
+				#}
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = ENG_King
+
+			modifier = {
+				war_support_factor = -0.05
+				political_power_gain = -0.1
+				conscription_factor = -0.05
+				production_factory_max_efficiency_factor = -0.05
+			}
+		}
+	}
+}

@@ -1,0 +1,69 @@
+ideas = {
+	country = {
+		coup_tension = {
+			allowed = {
+				original_tag = HUN
+				NOT = {
+					has_government = communism
+					OR = {
+						has_government = socialism
+					}
+				}
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = HUN_coup_tension
+
+			modifier = {
+				communism_drift = -0.01
+				socialism_drift = -0.01
+				communism_acceptance = -60
+				socialism_acceptance = -60
+				stability_factor = -0.05
+			}
+		}
+
+		anti_austria = {
+			allowed = {
+				original_tag = HUN
+				NOT = {
+					HUN = {
+						is_subject_of = AUS
+					}
+				}
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = HUN_Anti_Austria
+
+			#on_add = {
+			#	add_opinion_modifier = {
+			#		target = AUS
+			#		modifier = large_decrease
+			#	}
+			#
+			#	AUS = {
+			#		add_opinion_modifier = {
+			#			target = HUN
+			#			modifier = large_decrease
+			#		}
+			#	}
+			#}
+
+			traits = {
+				anti_austria_trait
+				anti_hungary_trait
+			}
+
+			modifier = {
+				surrender_limit = 0.1
+			}
+		}
+	}
+}

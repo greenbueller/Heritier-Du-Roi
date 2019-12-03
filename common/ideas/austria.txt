@@ -1,0 +1,56 @@
+ideas = {
+	country = {
+		czech_surpression = {
+
+			allowed = {
+				AUS = {
+					owns_state = 69
+					owns_state = 9
+					owns_state = 75
+					owns_state = 74
+				}
+
+				original_tag = AUS
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = AUS_Supress_the_Czechs
+
+			modifier = {
+				stability_factor = -0.05
+				conscription_factor = -0.1
+			}
+		}
+
+		osterreich = {
+
+			allowed = {
+				original_tag = AUS
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = AUS_Osterreich
+
+			modifier = {
+				war_support_factor = 0.05
+				surrender_limit = 0.05
+				
+				targeted_modifier = {
+					tag = HUN
+					attack_bonus_against = 0.15
+				}
+
+				targeted_modifier = {
+					tag = CRO
+					attack_bonus_against = 0.15
+				}
+			}
+		}
+	}
+}

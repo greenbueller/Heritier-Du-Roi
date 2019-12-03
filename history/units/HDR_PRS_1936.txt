@@ -1,0 +1,293 @@
+division_template = {
+	name = "Fusilier-Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+	artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Panzer-Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1}
+       	motorized = { x = 2 y = 1 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Jager-Division"		
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Kavallerie-Division"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+	    artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Zivilschutz-Einheiten"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = [ x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+	    engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Foot-Guards"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = [ x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery = { x = 3 y = 0 }
+		artillery = { x = 3 y = 1 }
+		artillery = { x = 3 y = 2 }
+	}
+	support = {
+	    engineer = { x = 0 y = 0 }
+	    artillery = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division= {	
+		name = "1. Infanterie-Division 'Gerhard von Scharnhorst'"
+		location = 6521
+		division_template = "Fusilier-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "2. Infanterie-Divison 'Kaiser Wilhelm II'"
+		location = 9252
+		division_template = "Fusilier-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "3. Infanterie-Division 'Otto von Bismarck'"
+		location = 6282
+		division_template = "Fusilier-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "4. Infanterie-Division 'Gebhard von Blucher'"
+		location = 6521
+		division_template = "Fusilier-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "5. Infanterie-Division 'Helmuth von Moltke'"
+		location = 3572
+		division_template = "Fusilier-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "6. Infanterie-Division 'Yorck von Wartenburg'"
+		location = 9570
+		division_template = "Fusilier-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "7. Infanterie-Division 'Freiherr von Bulow'"
+		location = 11558
+		division_template = "Fusilier-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "8. Infanterie-Division 'Neidhardt von Gneisenau'"
+		location = 6464
+		division_template = "Fusilier-Division"
+		start_experience_factor= 0.3
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "9. Infanterie-Division 'Nassau'"
+		location = 3381
+		division_template = "Fusilier-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "10. Infanterie-Division 'Ostpreussen'"
+		location = 6375
+		division_template= "Fusilier-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Erste Panzerbrigade"
+		location = 6332
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "1. Zivilgarde"
+		location = 321
+		division_template = "Zivilschutz-Einheiten"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+
+	division = {
+		name = "2. Zivilgarde"
+		location = 9570
+		division_template = "Zivilschutz-Einheiten"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+
+	division = {
+		name = "1. Breslauer-Vollstreckungsbrigade"
+		location = 3485
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		name = "2. Kustrin-Vollstreckungsbrigade"
+		location = 3572
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		name = "3. Magdeburger-Vollstreckungsbrigade"
+		location = 6487
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		name = "4. Torun-Vollstreckungsbrigade"
+		location = 3295
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.2
+	}
+}
+
+air_wings = {
+	63 = {
+		fighter_equipment_0 = {
+			amount = 32
+			owner = "PRU"
+		}
+	}
+
+	763 = {
+		fighter_equipment_0 = {
+			amount = 26
+			owner = "PRU"
+		}
+
+		strat_bomber_equipment_0 = {
+			amount = 22
+			owner = "PRU"
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "PRU"
+		}
+		requested_factories = 5
+		progress = 0.7
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
+			creator = "PRU"
+		}
+		requested_factories = 2
+		progress = 0.2
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "PRU"
+		}
+		requested_factories = 1
+	}
+}

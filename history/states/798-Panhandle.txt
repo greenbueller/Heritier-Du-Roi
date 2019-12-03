@@ -1,0 +1,25 @@
+state = {
+	id = 798
+	name = "STATE_798"
+	state_category = town
+	manpower = 367052
+
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			1572 = {
+				naval_base = 2
+			}
+			10352 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		1556 1572 12381 12353 10407 10380 10352
+	}
+}

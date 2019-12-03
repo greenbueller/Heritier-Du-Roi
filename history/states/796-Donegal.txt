@@ -1,0 +1,21 @@
+state = {
+	id = 796
+	name = "STATE_796"
+	manpower = 30000
+	state_category = rural
+
+	history = {
+		owner = NIR
+		add_core_of = IRE
+		add_core_of = NIR
+		add_claim_by = ENG
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		11371 337
+	}
+}

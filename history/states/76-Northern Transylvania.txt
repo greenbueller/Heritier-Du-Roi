@@ -1,0 +1,20 @@
+
+state={
+	id=76
+	name="STATE_76"
+	manpower=475900
+	
+	state_category = rural
+	
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = HUN
+	}
+
+	provinces={
+		711 727 746 3689 6731 9668 9670 9672 9685 9704 11676 
+	}
+}

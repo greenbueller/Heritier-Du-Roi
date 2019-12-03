@@ -1,0 +1,56 @@
+ideas = {
+	country = {
+		armed_neutrality = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = neutrality_idea
+
+			modifier = {
+				mobilization_speed = -0.20
+				line_change_production_efficiency_factor = -0.10
+				conscription_factor = 0.05
+			}
+		}
+
+		multi_ethnic_population = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = SWI_multi_racial_population
+
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.05
+			}
+		}
+
+		swiss_banking = {
+			allowed = {
+				original_tag = SWI
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = SWI_swiss_banking
+
+			modifier = {
+				trade_laws_cost_factor = -0.10
+				trade_opinion_factor = 0.50
+				production_speed_industrial_complex_factor = 0.05
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+state={
+	id=357
+	name="STATE_357"
+	resources={
+		steel=7 # was: 20.000
+	}
+
+	state_category = metropolis
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 4
+			air_base = 5
+			6732 = {
+				naval_base = 8
+			}
+		}
+		add_core_of = USA
+		victory_points = {
+			6732 20 
+		}
+	}
+
+	provinces={
+		715 718 905 908 3710 3906 6732 13158
+
+		#3732 6719 7462 12202 10318 12221 10247 4287 1282 1338 1619 12459
+	}
+	manpower=3361885
+	buildings_max_level_factor=1.000
+}

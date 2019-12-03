@@ -1,0 +1,175 @@
+﻿capital = 167
+oob = "SPR_1936"
+
+set_technology = {
+	early_fighter = 1
+	early_bomber = 1
+	gwtank = 1
+	gw_artillery = 1
+	interwar_artillery = 1
+	interwar_antiair = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	support_weapons = 1
+	motorised_infantry = 1
+	superior_firepower = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_military_police = 1
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_medium_battery = 1
+		basic_secondary_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		mtg_transport = 1
+	}
+}
+
+add_ideas = {
+	SPA_fracture
+	miningstate
+	isolation
+}
+
+set_politics = {
+	ruling_party = militarism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 2
+	socialism = 32
+	progressive = 1
+	conservatism = 21
+	militarism = 33
+	nationalism = 11
+}
+
+create_country_leader = {
+	name = "Francisco Caballero"
+	desc = "POLITICS_CABALLERO_DESC"
+	picture = "Portrait_Spain_Francisco_Caballero.dds"
+	expire = "1965.1.1"
+	ideology = marxism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Buenaventura Durruti"
+	desc = "POLITICS_DURRUTI_DESC"
+	picture = "Portrait_Spain_Buenaventura_Durruti.dds"
+	expire = "1965.1.1"
+	ideology = socialism_ideology
+	traits = {
+		dictator
+	}
+}
+
+create_country_leader = {
+	name = "Alta Giménez López"
+	desc = "POLITICS_LOPEZ_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
+	expire = "1965.1.1"
+	ideology = moderatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jose Enrique Varela"
+	desc = "POLITICS_VARELA_DESC"
+	picture = "Portrait_Spain_Jose_Enrique_Varela.dds"
+	expire = "1965.1.1"
+	ideology = democratic
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "José María Gil-Robles y Quiñones"
+	desc = "POLITICS_Quinones_DESC"
+	picture = "Portrait_Spain_Jose_Quin.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Emilio Mola"
+	desc = "POLITICS_MOLA_DESC"
+	picture = "Portrait_Spain_Emilio_Mola.dds"
+	expire = "1965.1.1"
+	ideology = militarism_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Francisco Franco"
+	desc = "POLITICS_FRANCO_DESC"
+	picture = "Portrait_Spain_Francisco_Franco.dds"
+	expire = "1965.1.1"
+	ideology = national_type
+	traits = {
+		headstrong
+	}
+}
+
+create_field_marshal = {
+	name = "Emilio Mola"
+	picture = "Portrait_Spain_Emilio_Mola.dds"
+	traits = { infantry_leader trait_mountaineer }
+	skill = 5
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Jose Enrique Varela"
+	picture = "Portrait_Spain_Jose_Enrique_Varela.dds"
+	traits = { thorough_planner trickster }
+	skill = 7
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 8
+	logistics_skill = 4
+}

@@ -1,0 +1,216 @@
+﻿capital = 328
+oob = "MAN_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+	gw_artillery = 1
+}
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = construction_effort_2
+	complete_national_focus = production_effort_2
+	complete_national_focus = infrastructure_effort
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "AFG_1939"
+	set_technology = {
+		early_fighter = 1
+		CAS1 = 1
+		gw_artillery = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+add_ideas = {
+	heaven_kingdom
+	agrarian_pop
+}
+
+set_politics = {
+	ruling_party = nationalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 2
+	socialism = 7
+	social_democracy = 12
+	progressive = 8
+	conservatism = 11
+	militarism = 29
+	nationalism = 31
+}
+
+create_country_leader = {
+	name = "Pu Yi"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Manchuria_Henry_Pu_Yi.dds"
+	expire = "1965.1.1"
+	ideology = national_type
+	traits = {
+		warrior_code
+	}
+}
+
+create_country_leader = {
+	name = "Aisin Gioro Xiqia"
+	desc = "POLITICS_XIQIA_DESC"
+	picture = "GFX_portrait_man_aisin_gioro_xiqia"
+	expire = "1965.1.1"
+	ideology = militarism_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pu Yi"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Manchuria_Henry_Pu_Yi.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_type
+	traits = {
+		warrior_code
+	}
+}
+
+create_country_leader = {
+	name = "Wang Yitang"
+	desc = "POLITICS_YITANG_DESC"
+	picture = "Portrait_Qing_Wang_Yitang.dds"
+	expire = "1965.1.1"
+	ideology = democratic
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Duan Qirui"
+	desc = "POLITICS_QIRUI_DESC"
+	picture = "Portrait_Qing_Duan_Qirui.dds"
+	expire = "1965.1.1"
+	ideology = moderatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Wang Ming"
+	desc = "POLITICS_MING_DESC"
+	picture = "Portrait_Manchuria_Wang_Ming.dds"
+	expire = "1965.1.1"
+	ideology = socialism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Wang Ming"
+	desc = "POLITICS_MING_DESC"
+	picture = "Portrait_Manchuria_Wang_Ming.dds"
+	expire = "1965.1.1"
+	ideology = marxism_ideology
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Li Zongren"
+	picture = "Portrait_Guanxi_Li_Zongren.dds"
+	traits = { infantry_leader }
+	skill = 4
+
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Zhang Haipeng"
+	GFX = "GFX_portrait_man_zhang_haipeng"
+	traits = {  }
+	skill = 2
+	
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Zhang Jinghui"
+	GFX = "GFX_portrait_man_zhang_jinghui"
+	traits = { infantry_officer }
+	skill = 2
+	
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Aisin Gioro Xiqia"
+	GFX = "GFX_portrait_man_aisin_gioro_xiqia"
+	traits = { career_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Yoshiko Kawashima"
+	gfx = "GFX_portrait_man_yoshiko_kawashima"
+	traits = { cavalry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+	female = yes
+}

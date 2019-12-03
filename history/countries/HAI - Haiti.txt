@@ -1,0 +1,109 @@
+﻿capital = 318
+oob = "HAI_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	marines = 1
+	gw_artillery = 1
+}
+
+set_war_support = 0.14
+set_stability = 0.24
+set_convoys = 5
+
+set_politics = {
+	ruling_party = nationalism
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 1
+	progressive = 3
+	conservatism = 21
+	militarism = 1
+	nationalism = 74
+}
+
+give_guarantee = CUB
+
+create_country_leader = {
+	name = "Gustave Marie Maurice Mesny"
+	desc = "POLITICS_MESNY_DESC"
+	picture = "Portrait_Hispanola_Gustave_Marie_Maurice_Mesny.dds"
+	expire = "1965.1.1"
+	ideology = national_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gustave Marie Maurice Mesny"
+	desc = "POLITICS_MESNY_DESC"
+	picture = "Portrait_Hispanola_Gustave_Marie_Maurice_Mesny.dds"
+	expire = "1965.1.1"
+	ideology = militarism_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sténio Vincent"
+	desc = "POLITICS_STENIO_VINCENT_DESC"
+	picture = "GFX_portrait_haiti_stenio_vincent"
+	expire = "1965.1.1"
+	ideology = conservatism_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Élie Lescot"
+	desc = "POLITICS_LESCOT_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
+	expire = "1965.1.1"
+	ideology = democratic
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Louis Eugène Roy"
+	desc = "POLITICS_ROY_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = moderatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jacques Roumain"
+	desc = "POLITICS_ROUMAIN_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
+	expire = "1965.1.1"
+	ideology = socialism_ideology
+	traits = {
+		exiled_revolutionary
+	}
+}
+
+create_country_leader = {
+	name = "Jacques Roumain"
+	desc = "POLITICS_ROUMAIN_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
+	expire = "1965.1.1"
+	ideology = marxism_ideology
+	traits = {
+		exiled_revolutionary
+	}
+}
+

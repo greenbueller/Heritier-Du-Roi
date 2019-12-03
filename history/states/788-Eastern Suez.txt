@@ -1,0 +1,24 @@
+state = {
+	id = 788
+	name="STATE_788"
+
+	state_category = town
+
+	manpower = 1423
+
+	history = {
+		owner = FRA
+		add_core_of = EGY
+
+		buildings = {
+			infrastructure = 6
+			1155 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces = {
+		1155 9947
+	}
+}

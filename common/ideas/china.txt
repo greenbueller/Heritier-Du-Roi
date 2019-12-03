@@ -1,0 +1,70 @@
+ideas = {
+	country = {
+		republican_spirit = {
+			allowed = {
+				original_tag = CHI
+				CHI = {
+					NOT = {
+						has_government = nationalism
+						has_government = militarism
+						has_government = communism
+					}
+				}
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = CHI_Republican_Spirit
+
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				political_power_gain = -0.05
+			}
+		}
+
+		rampant_banditry = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = chi_army_corruption2
+
+			modifier = {
+				dig_in_speed = -1
+				conscription_factor = -0.03
+				out_of_supply_factor = 0.05
+			}
+		}
+
+		uneasy_treaty = {
+			allowed = {
+				CHI = {
+					NOT = {
+						is_subject_of = JAP
+						has_war_with = JAP
+						is_in_faction_with = JAP
+					}
+				}
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = CHI_uneasy_treaty
+
+			modifier = {
+				command_power_gain_mult = 0.15
+				training_time_army_factor = -0.05
+			}
+		}
+	}
+}

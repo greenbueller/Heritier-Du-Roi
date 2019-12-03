@@ -1,0 +1,41 @@
+state = {
+	id = 797
+	name = "STATE_797"
+	manpower = 1892416
+	state_category = large_city
+
+	resources = {
+		oil = 50
+		steel = 2
+	}
+
+	history = {
+		owner = USA
+		add_core_of = USA
+
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+			air_base = 3
+			industrial_complex = 4
+			610 = {
+				naval_base = 1
+			}
+			9671 = {
+				naval_base = 4
+			}
+		}
+
+		victory_points = {
+			9713 1 
+		}
+
+		victory_points = {
+			9671 25
+		}
+	}
+
+	provinces = {
+		710 9713 11658 677 6745 9697 766 11698 768 6772 9730 610 781 3588 10159 4331 6665 6482 3644 6681 6757 6694 3677 9671 3678 6699 1601
+	}
+}

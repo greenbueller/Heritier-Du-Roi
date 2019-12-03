@@ -1,0 +1,104 @@
+ideas = {
+	
+	country = {
+
+		vibrant_militacy = {
+
+			allowed = {
+				original_tag = PRU
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = chi_army_corruption3
+
+			modifier = {
+				army_leader_start_attack_level = 1
+				training_time_factor = -0.05
+				army_org_factor = 0.03	
+			}
+		}
+
+		PRU_weakened_state = {
+
+			allowed = {
+				original_tag = PRU
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+					has_government = socialism
+					has_government = nationalism
+				}
+			}
+
+			picture = PRU_Weak_Boy
+
+			modifier = {
+				stability_factor = -0.02
+				war_support_factor = -0.05
+				political_power_gain = -0.05
+			}
+
+		}
+
+		weakened_state = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = generic_king_handled
+
+			modifier = {
+				stability_factor = -0.02
+				war_support_factor = -0.05
+				political_power_gain = -0.05
+			}
+		}
+
+		PRU_past_acceptance = {
+
+			allowed = {
+				original_tag = PRU
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = PRU_past_acceptance
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				military_leader_cost_factor = -0.1
+			}
+		}
+
+		PRU_reject_past = {
+
+			allowed = {
+				original_tag = PRU
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = PRU_reject_past
+
+			modifier = {
+				training_time_factor -0.05
+				cavalry_attack_factor = 0.03
+				cavalry_defence_factor = 0.03
+			}
+		}
+	}
+}

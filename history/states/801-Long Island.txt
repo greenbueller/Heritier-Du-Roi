@@ -1,0 +1,27 @@
+state = {
+	id = 801
+	name = "STATE_801"
+	state_category = megalopolis 
+	manpower = 7061583
+
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 9
+			dockyard = 3
+			industrial_complex = 1
+			3878 = {
+				naval_base = 6
+			}
+		}
+
+		victory_points = {
+			3878 30 
+		}
+	}
+
+	provinces = {
+		859 3878
+	}
+}

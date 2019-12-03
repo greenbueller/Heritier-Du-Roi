@@ -1,0 +1,23 @@
+state = {
+	id = 815
+	name = "STATE_815"
+	manpower = 2144820
+	
+	state_category = town
+	
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		victory_points = {
+			6711 5 
+		}
+		add_core_of = HUN
+	}
+
+	provinces={
+		713 3696 3709 6711 6714 9687 
+	}
+}

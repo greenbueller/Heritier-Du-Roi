@@ -1,0 +1,107 @@
+﻿capital = 44
+
+OOB = "ALB_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 1
+	socialism = 3
+	social_democracy = 0
+	progressive = 1
+	conservatism = 53
+	militarism = 38
+	nationalism = 4
+}
+
+set_convoys = 5
+
+#Victor Emmanuel III of Italy after 39
+create_country_leader = {
+	name = "Wied I"
+	desc = "POLITICS_ZOG_DESC"
+	picture = "Portrait_Albania_Wied_I.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gustav von Myrdacz"
+	desc = "POLITICS_MYRDACZ_DESC"
+	picture = "Portrait_Albania_Gustaf_von_Myrdacz.dds"
+	expire = "1965.1.1"
+	ideology = militarism_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Enver Hoxha"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_Albania_Enver_Hoxha.dds"
+	expire = "1965.1.1"
+	ideology = marxism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Enver Hoxha"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_Albania_Enver_Hoxha.dds"
+	expire = "1965.1.1"
+	ideology = socialism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Shefqet Verlaci"
+	desc = "POLITICS_VERLACI_DESC"
+	picture = "Portrait_Albania_Shefqet_Verlaci.dds"
+	expire = "1965.1.1"
+	ideology = democratic
+	traits = {
+		#
+	} 
+}
+
+create_country_leader = {
+	name = "Alper Bislimi"
+	desc = "POLITICS_BISLIMI_DESC"
+	picture = "Portrait_Europe_Generic_land_4.dds"
+	expire = "1965.1.1"
+	ideology = moderatism
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Xhemal Aranitasi"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
+}
+

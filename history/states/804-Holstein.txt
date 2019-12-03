@@ -1,0 +1,19 @@
+state = {
+	id = 804
+	name = "STATE_804"
+	state_category = city
+	manpower = 1138000
+
+	provinces = {
+		332 11251 11366
+	}
+
+	history = {
+		owner = SCH
+		add_core_of = SCH
+		buildings = {
+			infrastructure = 4
+			dockyard = 2
+		}
+	}
+}

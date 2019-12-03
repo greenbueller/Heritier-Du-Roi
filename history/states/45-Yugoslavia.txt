@@ -1,0 +1,20 @@
+state={
+	id=45
+	name="STATE_45"
+
+	history={
+		victory_points = { 619 3 }
+		owner = HUN
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = HUN
+	}
+
+	provinces={
+		619 3617 3623 6670 6700 9621 11625 
+	}
+
+	manpower=838621
+	state_category=town
+}

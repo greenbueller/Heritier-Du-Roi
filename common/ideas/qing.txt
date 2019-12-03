@@ -1,0 +1,44 @@
+ideas = {
+	country = {
+		heaven_kingdom = {
+			allowed = {
+				original_tag = MAN
+				has_government = nationalism
+				OR = {
+					has_government = conservatism
+				}
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = Qing_Mandate_of_Heaven
+
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.1
+				conscription_factor = 0.05
+			}
+		}
+
+		agrarian_pop = {
+			allowed = {
+				original_tag = MAN
+ 			}
+
+ 			allowed_civil_war = {
+ 				always = no
+ 			}
+
+ 			picture = Qing_Hungry_Boys
+
+ 			modifier = {
+ 				conscription_factor = 0.02
+ 				production_factory_max_efficiency_factor = -0.05
+ 				production_speed_buildings_factor = 0.05
+ 				local_building_slots_factor = -0.05
+ 			}
+		}
+	}
+}

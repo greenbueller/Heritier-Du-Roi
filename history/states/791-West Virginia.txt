@@ -1,0 +1,20 @@
+state = {
+	id = 791
+	name = "STATE_791"
+	manpower = 1383684
+	state_category = large_town
+
+	history = {
+		owner = USA
+		add_core_of = USA
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+	}
+
+	provinces = {
+		9923 801 3975 10441 6971 7588 3941 6958 6850 11888 7646 7466 4627
+	}
+}

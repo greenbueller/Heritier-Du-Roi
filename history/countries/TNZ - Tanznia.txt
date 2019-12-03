@@ -1,0 +1,100 @@
+capital = 770
+oob = "TNZ_1936"
+
+set_politics = {
+	ruling_party = progressive
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 1
+	socialism = 0
+	social_democracy = 0
+	progressive = 63
+	conservatism = 34
+	militarism = 0
+	nationalism = 2
+}
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+create_country_leader = {
+	name = "Cebo Dumisane"
+	desc = "POLITICS_DUMISANE_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
+	expire = "1965.1.1"
+	ideology = democratic
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Dumazile Bheka"
+	desc = "POLITICS_BHEKA_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		indomitable_perseverance
+	}
+}
+
+create_country_leader = {
+	name = "Godlumthakathi Lindela"
+	desc = "POLITICS_LINDELA_DESC"
+	picture = "Portrait_Tanznia_Mcebo_Thulani.dds"
+	expire = "1965.1.1"
+	ideology = socialism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Umoja Musa"
+	desc = "POLITICS_MUSA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = moderatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sakeem Spencer"
+	desc = "POLITICS_SPENCER_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_navy_3.dds"
+	expire = "1965.1.1"
+	ideology = libertarian
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name - "Destin Rice"
+	desc = "POLITICS_RICE_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
+	expire = "1965.1.1"
+	ideology = militarism_type
+	traits = {
+		dictator
+	}
+}
+
+create_country_leader = {
+	name = "Abdu'llah Ibn Masarra"
+	expire = "1965.1.1"
+	ideology = unification
+	traits = {
+		headstrong
+	}
+	desc = "POLITICS_MASARRA_DESC"
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds"
+}

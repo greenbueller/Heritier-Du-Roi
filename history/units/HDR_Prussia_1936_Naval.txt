@@ -1,0 +1,66 @@
+units = {
+	fleet = {
+		name = "Kriegsmarine"			
+		naval_base = 6332  # Wilhemshaven
+		task_force = {
+			name = "Ostseeflotte"	# CO: Albrecht
+			location = 6332  	# Konigsberg
+			ship = { name = "Schleswig-Holstein" definition = battleship equipment = { battleship_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "Schlesien" definition = battleship equipment = { battleship_1 = { amount = 1 owner = PRU } } }
+			# 1. Zerstörer Flottille
+			ship = { name = "Z-2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "Z-4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "Z-14" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "Z-15" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "Z-16" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			# Zerstörer Flottille zbV
+			ship = { name = "Z-1" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "Z-8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "Z-9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "Z-11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+		}
+	}
+		
+	fleet = {
+		name = "Unterseeboots Flotte"			
+		naval_base = 362  # Kiel
+		task_force = {
+			name = "I. U-Boots-Flot. Weddigen"
+			location = 362 	# Kiel 
+			ship = { name = "U-9" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PRU } } }	
+			ship = { name = "U-13" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "U-15" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "U-17" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "U-19" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PRU } } }
+		}
+		task_force = {
+			name = "II. U-Boots-Flot. Saltzwedel"
+			location = 11372	# Wilhemshaven
+			ship = { name = "U-25" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "U-26" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "U-27" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "U-28" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PRU } } }
+		}
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	
+
+	### Ships Under Contruction ###
+	# SS: Type IIC (x2) ("U-62" "UA"), Type VIIB (x3) ("U-50" "U-54" "U-55")
+	add_equipment_production = {
+		equipment = {
+			type = submarine_2
+			creator = "PRU"
+		}
+		requested_factories = 1
+		progress = 0.80
+		amount = 2
+	}
+#####################
