@@ -103,6 +103,11 @@
  swiss_banking:0 "Swiss Banking"
  swiss_banking_desc:0 "The Swiss Bank system is world renowned for its safe transactions, safe storage, and ease of use. This system helps make Swiss trade more attractive to potential buyers in order to maintain their banking security."
 
+ VEN_trade_empire:0 "Diamond of the Mediterranean"
+ VEN_trade_empire_desc:0 "Venice was once a great trade empire, and since its re-independence, it has strived to reclaim that title, going to great lengths to develop a reputation for its trade once again."
+ VEN_seaside_spirit:0 "Seaside Spirit"
+ VEN_seaside_spirit_desc:0 "Venice had been a naval power in the Mediterranean for centuries, and once housed one of Italy's greatest naval task forces. With its newly gained independence, Venice will form a greater navy then ever before."
+
  valentin_verley:0 "Valentin De Verley"
  pierre_georges:0 "Pierre Georges"
  julien_geguen:0 "Julien Gueguen"

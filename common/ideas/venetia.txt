@@ -1,0 +1,48 @@
+ideas = {
+  country = {
+    VEN_trade_empire = {
+      allowed = {
+        original_tag = VEN
+        any_state = {
+          is_controlled_by = VEN
+          is_coastal = yes
+        }
+      }
+
+      allowed_civil_war = {
+        always = no
+      }
+
+      picture = VEN_trade_empire
+
+      modifier = {
+        license_purchase_cost = -0.20
+        trade_opinion_factor = 0.30
+        convoy_escort_efficiency = 0.05
+      }
+    }
+
+    VEN_seaside_spirit = {
+      allowed = {
+        original_tag = VEN
+        any_state = {
+          is_controlled_by = VEN
+          is_coastal = yes
+        }
+      }
+
+      allowed_civil_war = {
+        always = no
+      }
+
+      picture = VEN_seaside_spirit
+
+      modifier = {
+        production_speed_dockyard_factor = 0.10
+        production_speed_naval_base_factor = 0.10
+        experience_gain_navy = 0.05
+        navy_max_range_factor = 0.15
+        }
+    }
+  }
+}
